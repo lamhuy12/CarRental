@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Log in</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <form action="login" method="POST">
+            Username: <input type="text" name="txtUsername" value="" placeholder="enter username"/> <br/>
+            Password: <input type="password" name="txtPassword" value="" placeholder="enter password"/> <br/>
+            <div class="g-recaptcha"
+                 data-sitekey="6LelZAsTAAAAAAv1ADYDnq8AzbmPmbMvjh-xhfgB"></div>
+            <input type="submit" value="Login" />
+        </form>
+        <a href="createNewAccountPage">Click here to create new account</a> <Br/>
+        <a href="emailNeedVerifyPage">Need to verify your email?</a> <br/>
+        <a href="search">Back to home page</a>          
+    </body>
+</html>
